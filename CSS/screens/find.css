@@ -102,3 +102,16 @@
 .open-post__heart-count span {
   margin-left: 3px;
 }
+
+@keyframes redColor {
+  from {
+    color: white;
+  }
+  to {
+    color: red;
+  }
+}
+
+.fa-heart:hover {
+  animation: redColor 0.2s linear forwards;
+}
